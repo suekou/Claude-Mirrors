@@ -1,0 +1,57 @@
+name: Update Claude Mirrors
+
+on:
+  schedule:
+    # 14:17 JST every day.
+    # Chosen after the observed Claude Code docs update window around 03:30 UTC
+    # and the Claude blog Webflow publish window around 20:30 UTC.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-claude-mirrors
+  cancel-in-progress: false
+
+jobs:
+  update-mirrors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch Claude blog posts
+        run: python3 scripts/fetch_claude_blog.py
+
+      - name: Pause between mirrors
+        run: sleep 60
+
+      - name: Fetch Claude Developer Platform docs
+        run: python3 scripts/fetch_claude_docs.py
+
+      - name: Pause between mirrors
+        run: sleep 60
+
+      - name: Fetch Claude Code docs
+        run: python3 scripts/fetch_claude_code_docs.py
+
+      - name: Commit updated mirrors
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Claude mirrors"
+          file_pattern: >-
+            blog/**/*.md
+            blog/blog_manifest.json
+            docs/*.md
+            docs/**/*.md
+            docs/docs_manifest.json
+            code-docs/*.md
+            code-docs/**/*.md
+            code-docs/code_docs_manifest.json
