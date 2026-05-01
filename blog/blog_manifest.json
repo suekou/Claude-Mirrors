@@ -345,11 +345,11 @@
     "2025/April/2025-04-02-claude-on-google-cloud-fedramp-high.md": {
       "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized",
       "original_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
-      "hash": "16ecd9c42f43ae9ed68ba37d7df3844c8db6c4419d985208fc0d9f6a45198b6f",
+      "hash": "3a5b85e21f17f744ad673ea3826487b934ce961b1fd3e6205d5a9039f3603a00",
       "date": "2025-04-02",
       "date_published": "Apr 02, 2025",
       "date_modified": "Oct 31, 2025",
-      "last_updated": "2026-05-01T11:59:57.127869"
+      "last_updated": "2026-05-01T07:39:11.232920"
     },
     "2026/March/2026-03-30-claude-platform-compliance-api.md": {
       "title": "Audit Claude Platform activity with the Compliance API",
@@ -1073,8 +1073,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-01T12:00:52.946856",
-    "fetch_duration_seconds": 84.021304,
+    "last_fetch_completed": "2026-05-01T07:39:58.598400",
+    "fetch_duration_seconds": 70.968689,
     "total_pages_discovered": 119,
     "pages_fetched_successfully": 119,
     "pages_failed": 0,
@@ -1083,6 +1083,6 @@
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-01T12:00:52.948050",
+  "last_updated": "2026-05-01T07:39:58.598418",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }

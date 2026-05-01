@@ -187,8 +187,8 @@
     },
     "changelog.md": {
       "original_url": "https://code.claude.com/docs/en/changelog",
-      "hash": "b30dfe0f18cbbd9b2cf25ecc58c2582628edc3645f0dadb3224d90ac1278ce22",
-      "last_updated": "2026-05-01T12:35:10.700228"
+      "hash": "8e89ca68e5eb50460f4cf3d9b02817e07da06578247960394e75e8f56f730c5c",
+      "last_updated": "2026-05-01T07:50:22.875604"
     },
     "channels.md": {
       "original_url": "https://code.claude.com/docs/en/channels",
@@ -507,8 +507,8 @@
     },
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
-      "hash": "834a7a518b93506e3533139de0154451d650689135b881e953f3f768c9c0e502",
-      "last_updated": "2026-05-01T12:35:53.649431"
+      "hash": "bbd4a5cc332a08606ac52f077f289fd5743f62ca6b5f9efa9780b17db558d79f",
+      "last_updated": "2026-05-01T07:50:46.254619"
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
@@ -527,8 +527,8 @@
     },
     "sub-agents.md": {
       "original_url": "https://code.claude.com/docs/en/sub-agents",
-      "hash": "a8ce50fbb735616c95188f16b60b7efd255be6a7e0e5dc09b4cc0b280b1a7619",
-      "last_updated": "2026-05-01T12:35:55.112990"
+      "hash": "9ff44efee8e814598f8e2bd5aa78c412165b176a989157171d45d20eb2fd915d",
+      "last_updated": "2026-05-01T07:50:47.481324"
     },
     "terminal-config.md": {
       "original_url": "https://code.claude.com/docs/en/terminal-config",
@@ -617,8 +617,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-01T12:36:07.156194",
-    "fetch_duration_seconds": 80.52129,
+    "last_fetch_completed": "2026-05-01T07:50:53.573466",
+    "fetch_duration_seconds": 43.080976,
     "total_pages_discovered": 123,
     "pages_fetched_successfully": 123,
     "pages_failed": 0,
@@ -629,6 +629,6 @@
     "base_url": "https://code.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-01T12:36:07.156206",
+  "last_updated": "2026-05-01T07:50:53.573480",
   "description": "Claude Code docs mirror manifest. Keys are Markdown paths under code-docs/."
 }

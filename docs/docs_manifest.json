@@ -1995,6 +1995,11 @@
       "hash": "ffa0409ff9ffdc3e0e216bb39cd41f7e1c7c607b11f6ad2987d204c0881dc40b",
       "last_updated": "2026-05-01T12:22:57.071979"
     },
+    "api/csharp/completions.md": {
+      "original_url": "https://platform.claude.com/docs/en/api/csharp/completions",
+      "hash": "1755d2314a2c83145e7bad5c3ab724254dbf1fe2b285e990a2b1487022ca30c2",
+      "last_updated": "2026-05-01T12:31:38.185369"
+    },
     "api/csharp/completions/create.md": {
       "original_url": "https://platform.claude.com/docs/en/api/csharp/completions/create",
       "hash": "8f22aefc25a57008dd7596f767b9cc5b4a7689a73ece6e88500d3cf65226b167",
@@ -5414,16 +5419,11 @@
       "original_url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak",
       "hash": "3eb5ab36bc6a643b5e207a4e84d05255b62d172439173543b88b131076ae8a58",
       "last_updated": "2026-05-01T12:30:50.376495"
-    },
-    "api/csharp/completions.md": {
-      "original_url": "https://platform.claude.com/docs/en/api/csharp/completions",
-      "hash": "1755d2314a2c83145e7bad5c3ab724254dbf1fe2b285e990a2b1487022ca30c2",
-      "last_updated": "2026-05-01T12:31:38.185369"
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-01T12:32:05.411416",
-    "fetch_duration_seconds": null,
+    "last_fetch_completed": "2026-05-01T07:49:10.376397",
+    "fetch_duration_seconds": 491.658033,
     "total_pages_discovered": 1322,
     "pages_fetched_successfully": 1084,
     "pages_failed": 0,
@@ -5673,6 +5673,6 @@
     "base_url": "https://platform.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-01T12:32:05.411448",
+  "last_updated": "2026-05-01T07:49:10.376417",
   "description": "Claude Developer Platform docs mirror manifest. Keys are Markdown paths under docs/."
 }
