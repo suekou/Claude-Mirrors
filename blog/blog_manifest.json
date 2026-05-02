@@ -345,11 +345,11 @@
     "2025/April/2025-04-02-claude-on-google-cloud-fedramp-high.md": {
       "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized",
       "original_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
-      "hash": "3a5b85e21f17f744ad673ea3826487b934ce961b1fd3e6205d5a9039f3603a00",
+      "hash": "cd6557cf3b7ac31cf7dec9aa8bbf180dc8b600d07fc771e0f3db66e2f94bdb35",
       "date": "2025-04-02",
       "date_published": "Apr 02, 2025",
       "date_modified": "Oct 31, 2025",
-      "last_updated": "2026-05-01T07:39:11.232920"
+      "last_updated": "2026-05-02T07:09:32.643330"
     },
     "2026/March/2026-03-30-claude-platform-compliance-api.md": {
       "title": "Audit Claude Platform activity with the Compliance API",
@@ -372,11 +372,11 @@
     "2026/April/2026-04-30-claude-security-public-beta.md": {
       "title": "Claude Security is now in public beta",
       "original_url": "https://claude.com/blog/claude-security-public-beta",
-      "hash": "a2534571c987c52e1555a8b8470792f89f2b09192d3a04fb0e398129f8f031c6",
+      "hash": "d0a422273a7f10449471fa3e32f05e556e7529376617e4cf46eae146818e23ec",
       "date": "2026-04-30",
       "date_published": "Apr 30, 2026",
-      "date_modified": "Apr 30, 2026",
-      "last_updated": "2026-05-01T11:57:00.488152"
+      "date_modified": "May 01, 2026",
+      "last_updated": "2026-05-02T07:09:34.422196"
     },
     "2026/January/2026-01-28-claude-team-updates.md": {
       "title": "Updates to Claude Team",
@@ -567,6 +567,15 @@
       "date_modified": "Apr 02, 2026",
       "last_updated": "2026-05-01T11:57:15.619338"
     },
+    "2026/May/2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md": {
+      "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
+      "original_url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
+      "hash": "ccc906ae09292dfbe07369380e2212c516f124aafce81e685402c04f071b4602",
+      "date": "2026-05-01",
+      "date_published": "May 01, 2026",
+      "date_modified": "May 01, 2026",
+      "last_updated": "2026-05-02T07:09:47.486893"
+    },
     "2026/February/2026-02-23-how-ai-helps-break-cost-barrier-cobol-modernization.md": {
       "title": "How AI helps break the cost barrier to COBOL modernization",
       "original_url": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization",
@@ -624,11 +633,11 @@
     "2026/April/2026-04-30-how-kepler-built-verifiable-ai-for-financial-services-with-claude.md": {
       "title": "How Kepler built verifiable AI for financial services with Claude",
       "original_url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude",
-      "hash": "6a2e34ae1d0e14b58cb44e7c71d34b611fe3f79b345be9de354e84bbc8453280",
+      "hash": "d3faa45a3a1b1749caacb3399603927caac7e5ed0ef013d1f397d3272c529aa0",
       "date": "2026-04-30",
       "date_published": "Apr 30, 2026",
-      "date_modified": "Apr 30, 2026",
-      "last_updated": "2026-05-01T11:57:20.582888"
+      "date_modified": "May 01, 2026",
+      "last_updated": "2026-05-02T07:09:51.634188"
     },
     "2026/January/2026-01-28-how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation.md": {
       "title": "How leading retailers are turning AI pilots into enterprise-wide transformation",
@@ -1073,16 +1082,16 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-01T07:39:58.598400",
-    "fetch_duration_seconds": 70.968689,
-    "total_pages_discovered": 119,
-    "pages_fetched_successfully": 119,
+    "last_fetch_completed": "2026-05-02T07:10:20.761314",
+    "fetch_duration_seconds": 71.641312,
+    "total_pages_discovered": 120,
+    "pages_fetched_successfully": 120,
     "pages_failed": 0,
     "failed_urls": [],
     "sitemap_url": "https://claude.com/sitemap.xml",
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-01T07:39:58.598418",
+  "last_updated": "2026-05-02T07:10:20.761337",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }

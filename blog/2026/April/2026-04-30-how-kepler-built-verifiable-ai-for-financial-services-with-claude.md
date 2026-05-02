@@ -3,7 +3,7 @@ title: "How Kepler built verifiable AI for financial services with Claude"
 source_url: "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude"
 date: "2026-04-30"
 date_published: "Apr 30, 2026"
-date_modified: "Apr 30, 2026"
+date_modified: "May 01, 2026"
 description: "Inside a platform that indexes 26M+ SEC filings, earnings call transcripts, IR presentations, consensus estimates, and private data across 14,000+ companies and 27 global markets, and how the team behind it built AI that validates every number to the exact filing, page, and line item."
 image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69050eca25045d4e2236dade_og_how-brex-improves-code-quality-and-productivity-with-claude-code%20(2).jpg"
 ---

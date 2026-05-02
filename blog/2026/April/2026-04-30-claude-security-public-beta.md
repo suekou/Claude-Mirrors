@@ -3,7 +3,7 @@ title: "Claude Security is now in public beta"
 source_url: "https://claude.com/blog/claude-security-public-beta"
 date: "2026-04-30"
 date_published: "Apr 30, 2026"
-date_modified: "Apr 30, 2026"
+date_modified: "May 01, 2026"
 description: "Scan code for vulnerabilities and generate proposed fixes with Opus 4.7, on the Claude Platform, or through technology and services partners building with Claude."
 image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg"
 ---
