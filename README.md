@@ -57,3 +57,16 @@ The schedule is intentionally after the observed upstream update windows:
 - Claude Developer Platform docs do not expose `lastmod` in the sitemap, so they are fetched in the same later window.
 
 The workflow runs the mirrors sequentially, pauses 60 seconds between sources, and commits all changes together as `Update Claude mirrors`.
+
+When a commit is created, the workflow also sends an AI-generated update digest by email. The digest summarizes only added and modified Markdown files; deleted files are intentionally omitted to keep the prompt and email small.
+
+Required repository secrets:
+
+- `GEMINI_API_KEY`: Gemini Developer API key used by the Google Gen AI SDK.
+- `RESEND_API_KEY`: Resend API key.
+- `RESEND_FROM`: Verified Resend sender, for example `Claude Mirror <digest@example.com>`.
+
+Optional repository secrets:
+
+- `MAIL_TO`: Recipient override. Defaults to `suenaga.kosuke@classmethod.jp`.
+- `GEMINI_MODEL`: Model override. Defaults to `gemini-2.5-flash`.

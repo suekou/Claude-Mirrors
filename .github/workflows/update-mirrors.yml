@@ -43,6 +43,7 @@ jobs:
         run: python3 scripts/fetch_claude_code_docs.py
 
       - name: Commit updated mirrors
+        id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Claude mirrors"
@@ -55,3 +56,17 @@ jobs:
             code-docs/*.md
             code-docs/**/*.md
             code-docs/code_docs_manifest.json
+
+      - name: Install notification dependencies
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Send AI update digest
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-3-flash-preview' }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO || 'suenaga.kosuke@classmethod.jp' }}
+        run: python3 scripts/send_update_digest.py --base HEAD~1 --head HEAD
