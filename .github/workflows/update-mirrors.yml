@@ -42,6 +42,20 @@ jobs:
       - name: Fetch Claude Code docs
         run: python3 scripts/fetch_claude_code_docs.py
 
+      - name: Rebase onto latest branch
+        run: |
+          stashed=0
+          if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
+            git stash push --include-untracked --message "mirror updates before rebase"
+            stashed=1
+          fi
+
+          git pull --rebase origin "$GITHUB_REF_NAME"
+
+          if [ "$stashed" = "1" ]; then
+            git stash pop
+          fi
+
       - name: Commit updated mirrors
         id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v5
