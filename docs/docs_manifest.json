@@ -5187,8 +5187,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-02T07:19:06.996289",
-    "fetch_duration_seconds": 466.112465,
+    "last_fetch_completed": "2026-05-03T07:42:18.696327",
+    "fetch_duration_seconds": 460.748073,
     "total_pages_discovered": 1275,
     "pages_fetched_successfully": 1037,
     "pages_failed": 0,
@@ -5438,6 +5438,6 @@
     "base_url": "https://platform.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-02T07:19:06.996310",
+  "last_updated": "2026-05-03T07:42:18.696349",
   "description": "Claude Developer Platform docs mirror manifest. Keys are Markdown paths under docs/."
 }
