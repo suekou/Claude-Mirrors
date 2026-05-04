@@ -297,8 +297,8 @@
     },
     "discover-plugins.md": {
       "original_url": "https://code.claude.com/docs/en/discover-plugins",
-      "hash": "c8a77f09989c9962ad29720a0e6318498f64ec9be0fcaa7b6b9119f5cf96236c",
-      "last_updated": "2026-05-01T12:35:24.980847"
+      "hash": "d86e0481fda52e6a1da0ad5981f0d9d3fd46eebe61383611eb8cadfbc82abf64",
+      "last_updated": "2026-05-04T08:14:56.354867"
     },
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
@@ -357,13 +357,13 @@
     },
     "hooks.md": {
       "original_url": "https://code.claude.com/docs/en/hooks",
-      "hash": "086c0dbed9a45582c37890d691c2d9997e95bd26c93b66fc26f8a38a28de8d81",
-      "last_updated": "2026-05-03T07:43:41.178855"
+      "hash": "ecd8b79d447a98fdf7bf030fd964796f9408671a11b53e37873ae63d60811669",
+      "last_updated": "2026-05-04T08:14:59.933018"
     },
     "hooks-guide.md": {
       "original_url": "https://code.claude.com/docs/en/hooks-guide",
-      "hash": "f0daddabb17eabe9b72d7f6760afd7584453e7c9fde867f4bd48771efa355c84",
-      "last_updated": "2026-05-03T07:43:41.483997"
+      "hash": "d16e3d44a4fcd217e43026f5f5778e5aa35d3ea44a8f713d338091d378fb38b5",
+      "last_updated": "2026-05-04T08:15:00.234047"
     },
     "how-claude-code-works.md": {
       "original_url": "https://code.claude.com/docs/en/how-claude-code-works",
@@ -402,8 +402,8 @@
     },
     "memory.md": {
       "original_url": "https://code.claude.com/docs/en/memory",
-      "hash": "653cda25f546e83503e05f6670ccf4ceca63ed12699212d8bbb20f1c745628c2",
-      "last_updated": "2026-05-01T12:35:41.161250"
+      "hash": "7a03f7cec59986e35225812ea520be2ebeaa00f8cae1bdcc21d481d2d44970dd",
+      "last_updated": "2026-05-04T08:15:02.674455"
     },
     "microsoft-foundry.md": {
       "original_url": "https://code.claude.com/docs/en/microsoft-foundry",
@@ -507,8 +507,8 @@
     },
     "settings.md": {
       "original_url": "https://code.claude.com/docs/en/settings",
-      "hash": "68bd6eb45ea1cb4f41d7d22272d46bdae3c46c5686f261d3c573c6ce98ef5eb4",
-      "last_updated": "2026-05-03T07:43:50.476374"
+      "hash": "d21724fe62383176a7be898a91753767758c61edc9d10a1bcc0300d6a86f3ab3",
+      "last_updated": "2026-05-04T08:15:09.020718"
     },
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
@@ -622,8 +622,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-03T07:43:57.308895",
-    "fetch_duration_seconds": 38.491959,
+    "last_fetch_completed": "2026-05-04T08:15:15.767315",
+    "fetch_duration_seconds": 37.545347,
     "total_pages_discovered": 124,
     "pages_fetched_successfully": 124,
     "pages_failed": 0,
@@ -634,6 +634,6 @@
     "base_url": "https://code.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-03T07:43:57.308920",
+  "last_updated": "2026-05-04T08:15:15.767336",
   "description": "Claude Code docs mirror manifest. Keys are Markdown paths under code-docs/."
 }
