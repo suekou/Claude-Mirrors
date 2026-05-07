@@ -3,7 +3,7 @@ title: "How Anthropic's legal team cut review times from days to hours with Clau
 source_url: "https://claude.com/blog/how-anthropic-uses-claude-legal"
 date: "2025-12-08"
 date_published: "Dec 08, 2025"
-date_modified: "Jan 28, 2026"
+date_modified: "May 07, 2026"
 description: "Marketers spend hours creating ad variations and refreshing copy across platforms. Learn how Anthropic's growth team uses Claude Code to cut ad creation from 30 minutes to 30 seconds—no coding required."
 image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69366612af8ce9fe29acd58a_How%20Anthropic%20uses%20Claude%20in%20Legal.jpg"
 ---
@@ -68,13 +68,11 @@ Their Claude-powered workflow has employees fill out a form with their departmen
 
 "It used to be that you'd have to interview employees with a bit of back-and-forth to figure out the details and what conflicts might exist. With this workflow, Claude reads the form, asks for more information if it needs to, and suggests an outcome," Mark explains. "Then it goes to our queue with a recommendation."
 
-Lawyers can now focus on edge cases rather than routine approvals. The human remains the decision-maker. Claude handles the analysis that used to consume hours.
-
 ### **Privacy impact assessments (PIAs)**
 
 Writing privacy impact assessments from scratch was tedious, even when they followed similar patterns. The team now uses[ MCP (Model Context Protocol)](https://modelcontextprotocol.io/) servers to connect Claude to a Google Drive folder of previous PIAs and a Skill to instruct Claude on format and concerns.
 
-For instance, a lawyer might ask Claude the question, given what I've cared about in previous launches, help me write a new PIA using this folder of previous ones.
+For instance, a lawyer might ask Claude to write a new PIA based on a folder of previous ones.
 
 "Claude is so good at reading that context and using that skill to create a new template and help me move on with my day,” Mark says.
 

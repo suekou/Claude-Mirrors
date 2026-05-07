@@ -345,11 +345,11 @@
     "2025/April/2025-04-02-claude-on-google-cloud-fedramp-high.md": {
       "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized",
       "original_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
-      "hash": "16c0f13d9d93e50513e82bc99fdf381c57b721ec673f523f13ea670150a5879d",
+      "hash": "9f01a2e6cfe659130f6ea5f088978b4eee78f1189bea247236da3763a04da7ed",
       "date": "2025-04-02",
       "date_published": "Apr 02, 2025",
       "date_modified": "Oct 31, 2025",
-      "last_updated": "2026-05-06T07:45:06.818368"
+      "last_updated": "2026-05-07T08:01:10.943135"
     },
     "2026/March/2026-03-30-claude-platform-compliance-api.md": {
       "title": "Audit Claude Platform activity with the Compliance API",
@@ -606,11 +606,11 @@
     "2025/December/2025-12-08-how-anthropic-uses-claude-legal.md": {
       "title": "How Anthropic's legal team cut review times from days to hours with Claude",
       "original_url": "https://claude.com/blog/how-anthropic-uses-claude-legal",
-      "hash": "5514266087dfba69ca5173bb237fc18c86161507b7ad80dfaf13e564bc36b504",
+      "hash": "7e94bd02485b73c4f664aa8427d35526460f9446e48cf0c7e0f187f731d57f5e",
       "date": "2025-12-08",
       "date_published": "Dec 08, 2025",
-      "date_modified": "Jan 28, 2026",
-      "last_updated": "2026-05-01T11:57:17.680944"
+      "date_modified": "May 07, 2026",
+      "last_updated": "2026-05-07T08:01:28.113498"
     },
     "2026/January/2026-01-26-how-anthropic-uses-claude-marketing.md": {
       "title": "How Anthropic's Growth Marketing team cut ad creation time from 30 minutes to 30 seconds with Claude Code",
@@ -818,6 +818,15 @@
       "date_published": "Apr 29, 2026",
       "date_modified": "Apr 30, 2026",
       "last_updated": "2026-05-01T11:57:33.811622"
+    },
+    "2026/May/2026-05-06-new-in-claude-managed-agents.md": {
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "original_url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "hash": "030d73ee4a77f4c8914beccbb8363a9b0597d15f754c5f346a16c6b7e6300179",
+      "date": "2026-05-06",
+      "date_published": "May 06, 2026",
+      "date_modified": "May 06, 2026",
+      "last_updated": "2026-05-07T08:01:42.316454"
     },
     "2026/April/2026-04-28-onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development.md": {
       "title": "Onboarding Claude Code like a new developer: Lessons from 17 years of development",
@@ -1091,16 +1100,16 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-06T07:46:01.165866",
-    "fetch_duration_seconds": 80.739953,
-    "total_pages_discovered": 121,
-    "pages_fetched_successfully": 121,
+    "last_fetch_completed": "2026-05-07T08:02:00.064093",
+    "fetch_duration_seconds": 72.64424,
+    "total_pages_discovered": 122,
+    "pages_fetched_successfully": 122,
     "pages_failed": 0,
     "failed_urls": [],
     "sitemap_url": "https://claude.com/sitemap.xml",
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-06T07:46:01.165883",
+  "last_updated": "2026-05-07T08:02:00.064111",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }
