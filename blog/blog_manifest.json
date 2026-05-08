@@ -345,11 +345,11 @@
     "2025/April/2025-04-02-claude-on-google-cloud-fedramp-high.md": {
       "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized",
       "original_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
-      "hash": "9f01a2e6cfe659130f6ea5f088978b4eee78f1189bea247236da3763a04da7ed",
+      "hash": "3dd3b8961f9f37b649073e703b8b02070d6ad34f23ad6d6023c3ca6ce5ff4e40",
       "date": "2025-04-02",
       "date_published": "Apr 02, 2025",
       "date_modified": "Oct 31, 2025",
-      "last_updated": "2026-05-07T08:01:10.943135"
+      "last_updated": "2026-05-08T07:00:52.769981"
     },
     "2026/March/2026-03-30-claude-platform-compliance-api.md": {
       "title": "Audit Claude Platform activity with the Compliance API",
@@ -395,6 +395,15 @@
       "date_published": "Mar 18, 2026",
       "date_modified": "Mar 18, 2026",
       "last_updated": "2026-05-01T11:57:01.963676"
+    },
+    "2026/May/2026-05-07-collaborate-with-claude-across-excel-powerpoint-word-and-outlook.md": {
+      "title": "Collaborate with Claude across Excel, PowerPoint, Word and Outlook ",
+      "original_url": "https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook",
+      "hash": "8e916f5f4d950f25b809c3771a20824afa48ce4f7e83fadda372e0fffa316a9b",
+      "date": "2026-05-07",
+      "date_published": "May 07, 2026",
+      "date_modified": "May 07, 2026",
+      "last_updated": "2026-05-08T07:00:56.626106"
     },
     "2026/March/2026-03-05-common-workflow-patterns-for-ai-agents-and-when-to-use-them.md": {
       "title": "Common workflow patterns for AI agents—and when to use them",
@@ -1100,16 +1109,16 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-07T08:02:00.064093",
-    "fetch_duration_seconds": 72.64424,
-    "total_pages_discovered": 122,
-    "pages_fetched_successfully": 122,
+    "last_fetch_completed": "2026-05-08T07:01:46.894626",
+    "fetch_duration_seconds": 79.80885,
+    "total_pages_discovered": 123,
+    "pages_fetched_successfully": 123,
     "pages_failed": 0,
     "failed_urls": [],
     "sitemap_url": "https://claude.com/sitemap.xml",
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-07T08:02:00.064111",
+  "last_updated": "2026-05-08T07:01:46.894642",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }

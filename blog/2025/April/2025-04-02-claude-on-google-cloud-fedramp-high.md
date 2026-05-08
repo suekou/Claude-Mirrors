@@ -42,4 +42,4 @@ To get started with Claude in a FedRAMP High or IL2 environment:
 2. Access Claude models through the Vertex AI Model Garden
 3. Begin building with Claude using the Vertex AI API endpoints
 
-[Contact our team](/cdn-cgi/l/email-protection#f0808592839593b0919e8498829f809993de939f9d) for expert guidance on integrating Claude into federal client applications while ensuring full compliance with FedRAMP and DoD security requirements.
+[Contact our team](/cdn-cgi/l/email-protection#9aeaeff8e9fff9dafbf4eef2e8f5eaf3f9b4f9f5f7) for expert guidance on integrating Claude into federal client applications while ensuring full compliance with FedRAMP and DoD security requirements.
