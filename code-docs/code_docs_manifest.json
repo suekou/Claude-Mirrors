@@ -307,8 +307,8 @@
     },
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
-      "hash": "094d102359a36353ab5b8028a4a191030c0249aaaa3c1938bc3a5cc834dce7bd",
-      "last_updated": "2026-05-09T07:32:21.209717"
+      "hash": "983882df4b947dede26f7f88054392aefa6bd7ef0f272ff98574466d2ef57885",
+      "last_updated": "2026-05-10T07:46:26.223033"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -632,8 +632,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-09T07:32:42.318985",
-    "fetch_duration_seconds": 41.06984,
+    "last_fetch_completed": "2026-05-10T07:46:44.837897",
+    "fetch_duration_seconds": 37.094212,
     "total_pages_discovered": 126,
     "pages_fetched_successfully": 126,
     "pages_failed": 0,
@@ -644,6 +644,6 @@
     "base_url": "https://code.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-09T07:32:42.319001",
+  "last_updated": "2026-05-10T07:46:44.837917",
   "description": "Claude Code docs mirror manifest. Keys are Markdown paths under code-docs/."
 }

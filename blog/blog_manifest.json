@@ -200,8 +200,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-09T07:21:52.314673",
-    "fetch_duration_seconds": 12.669042,
+    "last_fetch_completed": "2026-05-10T07:36:03.791648",
+    "fetch_duration_seconds": 13.167334,
     "total_pages_discovered": 22,
     "pages_fetched_successfully": 22,
     "pages_failed": 0,
@@ -210,6 +210,6 @@
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-09T07:21:52.314690",
+  "last_updated": "2026-05-10T07:36:03.791665",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }
