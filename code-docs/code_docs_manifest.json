@@ -362,8 +362,8 @@
     },
     "hooks-guide.md": {
       "original_url": "https://code.claude.com/docs/en/hooks-guide",
-      "hash": "ccd1639a9d75881ff461746c92514826d6dc1e2ba49b5c6e167c1de3acc172df",
-      "last_updated": "2026-05-05T07:46:14.947516"
+      "hash": "6507f3a52100ae36531053973b22f7de7ce367c729cef77e5cad89bda5209876",
+      "last_updated": "2026-05-11T08:49:34.010361"
     },
     "how-claude-code-works.md": {
       "original_url": "https://code.claude.com/docs/en/how-claude-code-works",
@@ -507,8 +507,8 @@
     },
     "settings.md": {
       "original_url": "https://code.claude.com/docs/en/settings",
-      "hash": "0b1e85fe696ef5aabce951d48e1380cb22e62c15740773c171d653a8e8d35d0d",
-      "last_updated": "2026-05-09T07:32:34.446934"
+      "hash": "9b2570f88995eed0b2988fd3ef2e430316a19b721b6122d45ea8fa009dbb17be",
+      "last_updated": "2026-05-11T08:49:43.132640"
     },
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
@@ -517,8 +517,8 @@
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
-      "hash": "15145cbf7369c5532061cfe16254a55305dda0a7516941b944fedc0c19c313e7",
-      "last_updated": "2026-05-07T08:12:47.843007"
+      "hash": "2a978a793ab2683df3fe3aefdd76748bc16d70b98d94733adc4f38404c54b5a5",
+      "last_updated": "2026-05-11T08:49:43.771808"
     },
     "slack.md": {
       "original_url": "https://code.claude.com/docs/en/slack",
@@ -632,8 +632,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-10T07:46:44.837897",
-    "fetch_duration_seconds": 37.094212,
+    "last_fetch_completed": "2026-05-11T08:49:50.908595",
+    "fetch_duration_seconds": 40.455198,
     "total_pages_discovered": 126,
     "pages_fetched_successfully": 126,
     "pages_failed": 0,
@@ -644,6 +644,6 @@
     "base_url": "https://code.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-10T07:46:44.837917",
+  "last_updated": "2026-05-11T08:49:50.908611",
   "description": "Claude Code docs mirror manifest. Keys are Markdown paths under code-docs/."
 }
