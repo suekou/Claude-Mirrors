@@ -1,13 +1,13 @@
 {
   "files": {
-    "2026/April/2026-04-22-building-agents-that-reach-production-systems-with-mcp.md": {
-      "title": "Building agents that reach production systems with MCP",
-      "original_url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
-      "hash": "bac120f9fd7e6f6ef1dddf59f72243e7c1d454657edfbae654a2a8f7a7086358",
-      "date": "2026-04-22",
-      "date_published": "Apr 22, 2026",
-      "date_modified": "Apr 22, 2026",
-      "last_updated": "2026-05-01T11:56:38.676210"
+    "2026/May/2026-05-11-agent-view-in-claude-code.md": {
+      "title": "Agent view in Claude Code",
+      "original_url": "https://claude.com/blog/agent-view-in-claude-code",
+      "hash": "a743679673d111c37858a2891c5853a4efe9b8ec18e6e187fe3ac3908a4f40da",
+      "date": "2026-05-11",
+      "date_published": "May 11, 2026",
+      "date_modified": "May 11, 2026",
+      "last_updated": "2026-05-12T08:05:52.848568"
     },
     "2026/April/2026-04-30-building-ai-agents-for-the-enterprise.md": {
       "title": "Building AI agents for the enterprise",
@@ -62,6 +62,15 @@
       "date_published": "Apr 23, 2026",
       "date_modified": "Apr 23, 2026",
       "last_updated": "2026-05-09T07:21:43.490721"
+    },
+    "2026/May/2026-05-11-claude-platform-on-aws.md": {
+      "title": "Introducing the Claude Platform on AWS",
+      "original_url": "https://claude.com/blog/claude-platform-on-aws",
+      "hash": "ee483712d2d6645a57f7b521be63603deba4e5ca50ba564c9f99a4a056c722af",
+      "date": "2026-05-11",
+      "date_published": "May 11, 2026",
+      "date_modified": "May 11, 2026",
+      "last_updated": "2026-05-12T08:05:56.961607"
     },
     "2026/April/2026-04-30-claude-security-public-beta.md": {
       "title": "Claude Security is now in public beta",
@@ -200,16 +209,16 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-11T08:38:08.755559",
-    "fetch_duration_seconds": 13.492318,
-    "total_pages_discovered": 22,
-    "pages_fetched_successfully": 22,
+    "last_fetch_completed": "2026-05-12T08:06:05.852924",
+    "fetch_duration_seconds": 13.286358,
+    "total_pages_discovered": 23,
+    "pages_fetched_successfully": 23,
     "pages_failed": 0,
     "failed_urls": [],
     "sitemap_url": "https://claude.com/sitemap.xml",
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-11T08:38:08.755573",
+  "last_updated": "2026-05-12T08:06:05.852947",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }
