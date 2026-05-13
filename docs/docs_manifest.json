@@ -5527,8 +5527,8 @@
     },
     "build-with-claude/fast-mode.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "hash": "107b72cf214683cfcead03adb65478d3ef036486f386854f1a2afb03d12bd66b",
-      "last_updated": "2026-05-12T08:15:08.379467"
+      "hash": "6cda5ef66c651103eb24b7a1244f58e25eb5677834e5f3ff78bac28df07a0391",
+      "last_updated": "2026-05-13T08:23:31.658516"
     },
     "build-with-claude/files.md": {
       "original_url": "https://platform.claude.com/docs/en/build-with-claude/files",
@@ -5737,8 +5737,8 @@
     },
     "managed-agents/agent-setup.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/agent-setup",
-      "hash": "db3fabd89a78d1e6a014b91f1960d2d54534f049aaf02179b5b274534ed0e07c",
-      "last_updated": "2026-05-12T08:15:23.914619"
+      "hash": "64313283fd7672a1e4184981cffa5193cd49def5151641cc61b7dcef86e95be9",
+      "last_updated": "2026-05-13T08:23:46.877707"
     },
     "managed-agents/cloud-containers.md": {
       "original_url": "https://platform.claude.com/docs/en/managed-agents/cloud-containers",
@@ -5842,8 +5842,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-12T08:15:31.248699",
-    "fetch_duration_seconds": 505.274763,
+    "last_fetch_completed": "2026-05-13T08:23:54.277832",
+    "fetch_duration_seconds": 512.707085,
     "total_pages_discovered": 1414,
     "pages_fetched_successfully": 1168,
     "pages_failed": 0,
@@ -6101,6 +6101,6 @@
     "base_url": "https://platform.claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-12T08:15:31.248714",
+  "last_updated": "2026-05-13T08:23:54.277852",
   "description": "Claude Developer Platform docs mirror manifest. Keys are Markdown paths under docs/."
 }
