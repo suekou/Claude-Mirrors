@@ -3,7 +3,7 @@ title: "Introducing the Claude Platform on AWS"
 source_url: "https://claude.com/blog/claude-platform-on-aws"
 date: "2026-05-11"
 date_published: "May 11, 2026"
-date_modified: "May 11, 2026"
+date_modified: "May 14, 2026"
 description: "The Claude Platform on AWS is now generally available, offering a new way for AWS customers to access the full set of Claude platform features with AWS authentication, billing, and commitment retirement. "
 image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a011232fd83e71dfc83d71a_og-claude-platform-on-aws.jpg"
 ---
@@ -37,7 +37,7 @@ The Claude Platform on AWS includes native platform features, like:
 - [**Citations**](https://platform.claude.com/docs/en/build-with-claude/citations) for grounding responses in source documents
 - [**Batch processing**](https://platform.claude.com/docs/en/build-with-claude/batch-processing) for high-volume, asynchronous workloads
 
-Claude Platform on AWS customers also get access to the Claude Console, Anthropic's development environment for building and testing with Claude. The Console includes a prompt improver, prompt generator, and evaluation tools.
+Claude Platform on AWS customers also get access to the Claude Console, Anthropic's development environment for building and testing with Claude. The Console includes management for agents, skills, environments, vaults, observability tools, and more.
 
 Claude Opus 4.7, Sonnet 4.6, and Haiku 4.5 are available, with new models shipping on the Claude Platform on AWS as they launch.
 

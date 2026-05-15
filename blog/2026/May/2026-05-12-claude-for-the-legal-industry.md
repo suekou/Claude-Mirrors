@@ -3,7 +3,7 @@ title: "Claude for the legal industry"
 source_url: "https://claude.com/blog/claude-for-the-legal-industry"
 date: "2026-05-12"
 date_published: "May 12, 2026"
-date_modified: "May 12, 2026"
+date_modified: "May 14, 2026"
 description: "We're releasing 20+ new MCP connectors that link Claude to the software that the legal industry runs on and 12 new plugins tailored specific legal work and practice areas. "
 image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a035d00d8deb74273c96ccc_og_claude-for-the-legal-industry.jpg"
 ---

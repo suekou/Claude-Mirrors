@@ -81,6 +81,15 @@
       "date_modified": "Feb 10, 2026",
       "last_updated": "2026-05-13T08:13:11.865862"
     },
+    "2026/May/2026-05-13-best-practices-for-computer-and-browser-use-with-claude.md": {
+      "title": "Best practices for computer and browser use with Claude",
+      "original_url": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+      "hash": "966a242e2d18fbddecd75b104dbc6a85cf680d9c10773264f78af5f44b1b64df",
+      "date": "2026-05-13",
+      "date_published": "May 13, 2026",
+      "date_modified": "May 13, 2026",
+      "last_updated": "2026-05-15T08:18:23.097966"
+    },
     "2025/November/2025-11-10-best-practices-for-prompt-engineering.md": {
       "title": "Best practices for prompt engineering",
       "original_url": "https://claude.com/blog/best-practices-for-prompt-engineering",
@@ -336,11 +345,11 @@
     "2026/May/2026-05-12-claude-for-the-legal-industry.md": {
       "title": "Claude for the legal industry",
       "original_url": "https://claude.com/blog/claude-for-the-legal-industry",
-      "hash": "47e8e33a494222e82791f9de69d5050fcdd61ed239e597e7d0144da9e8d13400",
+      "hash": "13289def72973e5acb2d50d3e35813b7e88ac3d3cfc51dcc4673e5c5469c2e07",
       "date": "2026-05-12",
       "date_published": "May 12, 2026",
-      "date_modified": "May 12, 2026",
-      "last_updated": "2026-05-13T08:13:29.188465"
+      "date_modified": "May 14, 2026",
+      "last_updated": "2026-05-15T08:18:41.016687"
     },
     "2026/April/2026-04-08-claude-managed-agents.md": {
       "title": "Claude Managed Agents: get to production 10x faster",
@@ -363,11 +372,11 @@
     "2025/April/2025-04-02-claude-on-google-cloud-fedramp-high.md": {
       "title": "Claude on Google Cloud’s Vertex AI: FedRAMP High and IL2 Authorized",
       "original_url": "https://claude.com/blog/claude-on-google-cloud-fedramp-high",
-      "hash": "6e92fffbbee497b5fed2a792849ee69986f4d8dd63512157f7d09b6796057f3c",
+      "hash": "b3a27300319f07f49c30b976c7f89b781839fb55bd7ea8aa876059198f431835",
       "date": "2025-04-02",
       "date_published": "Apr 02, 2025",
       "date_modified": "Oct 31, 2025",
-      "last_updated": "2026-05-14T08:05:01.840303"
+      "last_updated": "2026-05-15T08:18:42.846142"
     },
     "2026/March/2026-03-30-claude-platform-compliance-api.md": {
       "title": "Audit Claude Platform activity with the Compliance API",
@@ -381,11 +390,11 @@
     "2026/May/2026-05-11-claude-platform-on-aws.md": {
       "title": "Introducing the Claude Platform on AWS",
       "original_url": "https://claude.com/blog/claude-platform-on-aws",
-      "hash": "ee483712d2d6645a57f7b521be63603deba4e5ca50ba564c9f99a4a056c722af",
+      "hash": "d96c93471f1edbd1d2617a6bb9adbcd3b764ef0091fab27d2aa0d3656334ca1b",
       "date": "2026-05-11",
       "date_published": "May 11, 2026",
-      "date_modified": "May 11, 2026",
-      "last_updated": "2026-05-12T08:05:56.961607"
+      "date_modified": "May 14, 2026",
+      "last_updated": "2026-05-15T08:18:44.098972"
     },
     "2025/July/2025-07-25-claude-powered-artifacts.md": {
       "title": "Build and share AI-powered apps with Claude",
@@ -606,11 +615,11 @@
     "2026/May/2026-05-01-how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks.md": {
       "title": "How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks",
       "original_url": "https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks",
-      "hash": "ccc906ae09292dfbe07369380e2212c516f124aafce81e685402c04f071b4602",
+      "hash": "52cce4c02acfd695bb580668f23bb060efb3eb6b4d66eb290a9195ba8edfd150",
       "date": "2026-05-01",
       "date_published": "May 01, 2026",
-      "date_modified": "May 01, 2026",
-      "last_updated": "2026-05-02T07:09:47.486893"
+      "date_modified": "May 14, 2026",
+      "last_updated": "2026-05-15T08:18:59.683221"
     },
     "2026/February/2026-02-23-how-ai-helps-break-cost-barrier-cobol-modernization.md": {
       "title": "How AI helps break the cost barrier to COBOL modernization",
@@ -665,6 +674,15 @@
       "date_published": "Oct 30, 2025",
       "date_modified": "Nov 21, 2025",
       "last_updated": "2026-05-13T08:13:50.515382"
+    },
+    "2026/May/2026-05-14-how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.md": {
+      "title": "How Claude Code works in large codebases: Best practices and where to start",
+      "original_url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "hash": "14452b0f831e69811bc47733701940493b8b5b325e35687371264ebf6dfc50f1",
+      "date": "2026-05-14",
+      "date_published": "May 14, 2026",
+      "date_modified": "May 14, 2026",
+      "last_updated": "2026-05-15T08:19:03.963132"
     },
     "2025/December/2025-12-09-how-enterprises-are-building-ai-agents-in-2026.md": {
       "title": "How enterprises are building AI agents in 2026",
@@ -1035,6 +1053,15 @@
       "date_modified": "Apr 10, 2026",
       "last_updated": "2026-05-13T08:14:14.864254"
     },
+    "2026/May/2026-05-14-the-founders-playbook.md": {
+      "title": "The founder's playbook: Building an AI-native startup",
+      "original_url": "https://claude.com/blog/the-founders-playbook",
+      "hash": "ca711c37704e27d4499962561dc5e508de1770cf1053d773c2a4ad4e7ee247d9",
+      "date": "2026-05-14",
+      "date_published": "May 14, 2026",
+      "date_modified": "May 14, 2026",
+      "last_updated": "2026-05-15T08:19:29.787488"
+    },
     "2025/March/2025-03-13-token-saving-updates.md": {
       "title": "Token-saving updates on the Anthropic API",
       "original_url": "https://claude.com/blog/token-saving-updates",
@@ -1136,16 +1163,16 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-14T08:05:57.327240",
-    "fetch_duration_seconds": 83.07051,
-    "total_pages_discovered": 126,
-    "pages_fetched_successfully": 126,
+    "last_fetch_completed": "2026-05-15T08:19:36.518003",
+    "fetch_duration_seconds": 79.848181,
+    "total_pages_discovered": 129,
+    "pages_fetched_successfully": 129,
     "pages_failed": 0,
     "failed_urls": [],
     "sitemap_url": "https://claude.com/sitemap.xml",
     "base_url": "https://claude.com",
     "fetch_tool_version": "1.0"
   },
-  "last_updated": "2026-05-14T08:05:57.327256",
+  "last_updated": "2026-05-15T08:19:36.518019",
   "description": "Claude blog mirror manifest. Markdown files are grouped by published year and month."
 }
