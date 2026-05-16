@@ -25,7 +25,7 @@
       "date": "2026-05-11",
       "date_published": "May 11, 2026",
       "date_modified": "May 11, 2026",
-      "last_updated": "2026-05-12T08:05:52.848568"
+      "last_updated": "2026-05-16T21:12:20.874580"
     },
     "2023/September/2023-09-28-amazon-bedrock-general-availability.md": {
       "title": "Claude on Amazon Bedrock now available to every AWS customer",
@@ -88,7 +88,7 @@
       "date": "2026-05-13",
       "date_published": "May 13, 2026",
       "date_modified": "May 13, 2026",
-      "last_updated": "2026-05-15T08:18:23.097966"
+      "last_updated": "2026-05-16T21:12:26.647371"
     },
     "2025/November/2025-11-10-best-practices-for-prompt-engineering.md": {
       "title": "Best practices for prompt engineering",
@@ -349,7 +349,7 @@
       "date": "2026-05-12",
       "date_published": "May 12, 2026",
       "date_modified": "May 14, 2026",
-      "last_updated": "2026-05-15T08:18:41.016687"
+      "last_updated": "2026-05-16T21:12:50.614986"
     },
     "2026/April/2026-04-08-claude-managed-agents.md": {
       "title": "Claude Managed Agents: get to production 10x faster",
@@ -394,7 +394,7 @@
       "date": "2026-05-11",
       "date_published": "May 11, 2026",
       "date_modified": "May 14, 2026",
-      "last_updated": "2026-05-15T08:18:44.098972"
+      "last_updated": "2026-05-16T21:12:54.563271"
     },
     "2025/July/2025-07-25-claude-powered-artifacts.md": {
       "title": "Build and share AI-powered apps with Claude",
@@ -538,7 +538,16 @@
       "date": "2026-05-05",
       "date_published": "May 05, 2026",
       "date_modified": "May 05, 2026",
-      "last_updated": "2026-05-06T07:45:18.091002"
+      "last_updated": "2026-05-16T21:13:10.187066"
+    },
+    "2026/May/2026-05-15-deploying-claude-across-the-legal-industry.md": {
+      "title": "Deploying Claude across the legal industry",
+      "original_url": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+      "hash": "236dd430250b961ffa638ad3ac458de8e5b7b001bb083daaeb98432f2b2a8354",
+      "date": "2026-05-15",
+      "date_published": "May 15, 2026",
+      "date_modified": "May 15, 2026",
+      "last_updated": "2026-05-16T21:13:10.964131"
     },
     "2026/March/2026-03-23-dispatch-and-computer-use.md": {
       "title": "Put Claude to work on your computer",
@@ -646,7 +655,7 @@
       "date": "2026-05-12",
       "date_published": "May 12, 2026",
       "date_modified": "May 12, 2026",
-      "last_updated": "2026-05-13T08:13:48.714189"
+      "last_updated": "2026-05-16T21:13:20.556458"
     },
     "2025/December/2025-12-08-how-anthropic-uses-claude-legal.md": {
       "title": "How Anthropic's legal team cut review times from days to hours with Claude",
@@ -682,7 +691,7 @@
       "date": "2026-05-14",
       "date_published": "May 14, 2026",
       "date_modified": "May 15, 2026",
-      "last_updated": "2026-05-16T07:27:26.317575"
+      "last_updated": "2026-05-16T21:13:23.882806"
     },
     "2025/December/2025-12-09-how-enterprises-are-building-ai-agents-in-2026.md": {
       "title": "How enterprises are building AI agents in 2026",
@@ -1060,7 +1069,7 @@
       "date": "2026-05-14",
       "date_published": "May 14, 2026",
       "date_modified": "May 14, 2026",
-      "last_updated": "2026-05-15T08:19:29.787488"
+      "last_updated": "2026-05-16T21:14:02.627351"
     },
     "2025/March/2025-03-13-token-saving-updates.md": {
       "title": "Token-saving updates on the Anthropic API",

@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,45 +44,44 @@ jobs:
       - name: Fetch Claude Code docs
         run: python3 scripts/fetch_claude_code_docs.py
 
-      - name: Rebase onto latest branch
-        run: |
-          stashed=0
-          if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
-            git stash push --include-untracked --message "mirror updates before rebase"
-            stashed=1
-          fi
-
-          git pull --rebase origin "$GITHUB_REF_NAME"
-
-          if [ "$stashed" = "1" ]; then
-            git stash pop
-          fi
-
-      - name: Commit updated mirrors
+      - name: Commit and push updated mirrors
         id: auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update Claude mirrors"
-          file_pattern: >-
-            blog/**/*.md
-            blog/blog_manifest.json
-            docs/*.md
-            docs/**/*.md
-            docs/docs_manifest.json
-            code-docs/*.md
-            code-docs/**/*.md
-            code-docs/code_docs_manifest.json
+        shell: bash
+        run: |
+          set -euo pipefail
 
-      - name: Install notification dependencies
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        run: python3 -m pip install -r requirements.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Send AI update digest
-        if: steps.auto-commit-action.outputs.changes_detected == 'true'
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-3-flash-preview' }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RESEND_FROM: ${{ secrets.RESEND_FROM }}
-          MAIL_TO: ${{ secrets.MAIL_TO || 'suenaga.kosuke@classmethod.jp' }}
-        run: python3 scripts/send_update_digest.py --base HEAD~1 --head HEAD
+          git add -A -- \
+            'blog/**/*.md' \
+            'blog/blog_manifest.json' \
+            'docs/*.md' \
+            'docs/**/*.md' \
+            'docs/docs_manifest.json' \
+            'code-docs/*.md' \
+            'code-docs/**/*.md' \
+            'code-docs/code_docs_manifest.json'
+
+          if git diff --cached --quiet; then
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit -m "Update Claude mirrors"
+          echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+
+            if [ "$attempt" = "3" ]; then
+              exit 1
+            fi
+
+            git fetch origin "$GITHUB_REF_NAME:refs/remotes/origin/$GITHUB_REF_NAME"
+            git rebase "origin/$GITHUB_REF_NAME"
+            sleep $((attempt * 5))
+          done
+
