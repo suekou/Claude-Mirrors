@@ -3,7 +3,7 @@ title: "How Claude Code works in large codebases: Best practices and where to st
 source_url: "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"
 date: "2026-05-14"
 date_published: "May 14, 2026"
-date_modified: "May 14, 2026"
+date_modified: "May 15, 2026"
 description: "The most successful Claude Code deployments share a set of recognizable patterns across configurations, tooling, and org structure. This article is part of Claude Code at scale, a new series covering best practices for engineering organizations building with Claude Code at enterprise scale."
 image: "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a060215e86f555c3638a2a1_og_how-claude-code-works-in-large-codebases-best-practices-and-where-to-start.jpg"
 ---
@@ -18,7 +18,7 @@ This article covers the patterns we've observed that have led to successful adop
 
 Claude Code navigates a codebase the way a software engineer would: it traverses the file system, reads files, uses grep to find exactly what it needs, and follows references across the codebase. It operates locally on the developer’s machine and doesn’t require a codebase index to be built, maintained, or uploaded to a server.
 
-The AI coding tools relied on RAG-based retrieval by embedding the entire codebase and retrieving relevant chunks at query time. At large scale, those systems can fail because embedding pipelines can’t keep up with active engineering teams. By the time a developer queries the index, it reflects the codebase as it existed days, weeks, or even hours ago. Retrieval then returns a function the team renamed two weeks ago, or references a module that was deleted in the last sprint, with no indication that either is out of date.
+RAG-powered AI coding tools work by embedding the entire codebase and retrieving relevant chunks at query time. At large scale, those systems can fail because embedding pipelines can’t keep up with active engineering teams. By the time a developer queries the index, it reflects the codebase as it previously existed weeks, days, or even hours before. Retrieval then returns a function the team renamed two weeks ago, or references a module that was deleted in the last sprint, with no indication that either is out of date.
 
 Agentic search avoids those failure modes. There's no embedding pipeline or centralized index to maintain as thousands of engineers commit new code. Each developer's instance works from the live codebase.
 
